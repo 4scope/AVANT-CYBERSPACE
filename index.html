@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- AOS animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- swiper js link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Vectored Creations</title>
+</head>
+<body>
+    <!-- Hero top Section -->
+    <div class="hero">
+        <nav>
+            <div class="nav-container">
+                <img src="./assets/chest.webp" alt="">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./pages/about.html">About Us</a></li>
+                    <li><a href="./pages/services.html">Services</a></li>
+                    <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                    <li><a href="./pages/testimonials.html">Testimonials</a></li>
+                    <li><a href="./pages/contact-us.html">Contact Us</a></li>
+                </ul>      
+                <a class="nav-right-btn" href="./pages/quote.html">
+                    <p>Get A Quote</p>
+                    <span><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <button class="hamburger open">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <button class="hamburger close">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+        </nav> 
+
+        <!-- mobile navigation -->
+         <div class="mobile">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="./pages/about.html">About Us</a></li>
+                <li><a href="./pages/services.html">Services</a></li>
+                <li><a href="./pages/portfolio.html">Portfolio</a></li>
+                <li><a href="./pages/testimonials.html">Testimonials</a></li>
+                <li><a href="./pages/contact-us.html">Contact Us</a></li>
+            </ul>      
+         </div>
+
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <div class="hero-text">
+                        <h1>MASTERING</h1>
+                        <h1>
+                            The Art <br>
+                            Of
+                        </h1>
+                        <h1 class="web">Web Design</h1>
+                    </div>
+                    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/auth-layout-char-left.png" alt="">
+                    </div>
+                </div>
+                <div class="hero-right" data-aos="flip-right">
+                    <h1>
+                        We're Not Just Caftting Designs; <br>
+                        We're Sculpting Dreams Into <br>
+                        Digital Reality. With A Fusion Of <br>
+                        Innovative Strategies And <br>
+                        Boundless Creativity. <br>
+                    </h1>
+                </div>
+            </div>
+
+        </div>   
+    </div>
+
+    <!-- About Company Section -->
+    <div class="about-company">
+        <h1>About The Company</h1>
+        <div class="about-container" >
+            <img data-aos="flip-left" src="./assets/4.jpg" alt="">
+            <div class="about-text" data-aos="zoom-in-down">
+                <p>Vectored Creations is a vibrant powerhouse specializing in digital goods, graphic design, and web development. Our diverse offerings, from logo design to animations and SEO, are crafted to transform your unique vision into reality, tailored to fit your specific needs.</p>
+                <p>We thrive on understanding your perspectives, engaging in deep, meaningful conversations to bring forth valuable insights and innovative ideas. Our commitment to delivering high-quality services within a pocket-friendly budget is unwavering, backed by dynamic sales and marketing teams that ensure your projects shine.</p>
+                <p>Our team of seasoned professionals blends industry expertise with cutting-edge strategies, keeping you ahead in a rapidly evolving market. We build long-lasting partnerships grounded in trust, reliability, and mutual success, going above and beyond to exceed expectations with prompt support and transparent communication. Join us, and let's achieve extraordinary success together.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio Section -->
+    <div class="portfolio">
+        <div class="portfolio-code" data-aos="zoom-out-up">
+            <h1>
+                Our Portfolio
+            </h1>
+            <ul>
+                <li id="all" class="port-active"> 
+                    <h4>
+                        All
+                    </h4>
+                    <span>
+        
+                    </span>
+                </li>
+                <li id="3d" class="port-none"> 
+                    <h4>
+                        3D Models
+                    </h4>
+                    <span>
+        
+                    </span>
+                </li>
+                <li id="da" class="port-none">
+                    <h4>
+                        Dynamic Animations                 
+                    </h4>
+                    <span>
+        
+                    </span>
+                </li>
+                <li id="gd" class="port-none">
+                    <h4>
+                        Graphic Design
+                    </h4>
+                    <span>
+        
+                    </span>
+                </li>
+                <li id="wd" class="port-none">
+                    <h4>
+                        Web Design & Development
+                    </h4>
+                    <span>
+        
+                    </span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- All -->
+        <div class="portfolio-container" id="all_active">
+            <div class="portfolio-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="./Home Page- Portfolio/3d Models/3d_spiral_20210916_274.png" alt="">
+                <h2>3D Models</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-right">
+                <video src="./Home Page- Portfolio/Dynamic Animations/3dblendermodelling_20210902_66.mp4" controls></video>
+                <h2>Dynamic Animations</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-down">
+                <img src="./Home Page- Portfolio/Graphic design/Black Dragon Esport Gaming Logo Premium.jpg" alt="">
+                <h2>Graphic Design</h2>
+            </div>
+            <div class="portfolio-content pct" data-aos="fade-up">
+                <img src="./Home Page- Portfolio/Web Design and Development/1.png" alt="">
+                <h2>Website Design & Development</h2>
+            </div>
+        </div>
+
+        <!-- 3D model -->
+        <div class="portfolio-container   port-none" id="3d_active">
+            <div class="portfolio-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="./Home Page- Portfolio/3d Models/3d_character_pro_20210916_307.png" alt="">
+                <h2>Form and Function: Mastering 3D Modeling</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-right">
+                <img src="./Home Page- Portfolio/3d Models/3d_spiral_20210916_274.png">
+                <h2>Digital Dimensions: The Artistry of 3D Design</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-down">
+                <img src="./Home Page- Portfolio/3d Models/IMG_20230113_015548.jpg" alt="">
+                <h2>Beyond the Screen: Sculpting with Pixels</h2>
+            </div>
+            <div class="portfolio-content pct" data-aos="fade-up">
+                <img src="./Home Page- Portfolio/3d Models/m.character_artist_20210906_224.png" alt="">
+                <h2>Digital Dimensions: The Artistry of 3D Design</h2>
+            </div>
+        </div>
+
+        <!-- Dynamic Animation -->
+        <div class="portfolio-container  port-none" id="da_active">
+            <div class="portfolio-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <video src="./Home Page- Portfolio/Dynamic Animations/3dblendermodelling_20210902_66.mp4" controls></video>
+                <h2>Vivid Motion: Dynamic 3D Animation</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-right">
+                <video src="./Home Page- Portfolio/Dynamic Animations/Project 1 (1).mp4" controls></video>
+                <h2>Pulsating Pixels: The Power of Dynamic Design</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-down">
+                <video src="./Home Page- Portfolio/Dynamic Animations/Project 1 (4).mp4" controls></video>
+                <h2>Animating Worlds: Dynamic 3D Creation</h2>
+            </div>
+            <div class="portfolio-content pct" data-aos="fade-up">
+                <video src="./Home Page- Portfolio/Dynamic Animations/Project 1 (5).mp4" controls></video>
+                <h2>Dynamic Perspectives: Exploring 3D Animation</h2>
+            </div>
+        </div>
+
+        <!-- graphic design -->
+        <div class="portfolio-container  port-none" id="gd_active">
+            <div class="portfolio-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="./Home Page- Portfolio/Graphic design/24daf675880395.5fba2f6e1ad94.jpg" alt="">
+                <h2>Visual Harmony: Exploring Graphic Design</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-right">
+                <img src="./Home Page- Portfolio/Graphic design/Black Dragon Esport Gaming Logo Premium.jpg">
+                <h2>Crafting Concepts: The Art of Graphic Design</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-down">
+                <img src="./Home Page- Portfolio/Graphic design/brycekhodraws_20210906_151.png" alt="">
+                <h2>Designing Perspectives: The World of Graphic Art</h2>
+            </div>
+            <div class="portfolio-content pct" data-aos="fade-up">
+                <img src="./Home Page- Portfolio/Graphic design/OR-00387 Exotichef.png" alt="">
+                <h2>Creative Canvas: Innovations in Graphic Design</h2>
+            </div>
+        </div>
+
+        <!-- Web design & Web dev -->
+        <div class="portfolio-container  port-none" id="wd_active">
+            <div class="portfolio-content" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <img src="./Home Page- Portfolio/Web Design and Development/1.png" alt="">
+                <h2>Digital Blueprints: Crafting Web Design & Development</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-right">
+                <img src="./Home Page- Portfolio/Web Design and Development/2.png">
+                <h2>Code and Creativity: The Art of Web Design</h2>
+            </div>
+            <div class="portfolio-content pc" data-aos="zoom-out-down">
+                <img src="./Home Page- Portfolio/Web Design and Development/3.png" alt="">
+                <h2>Building the Web: Innovation in Design & Development</h2>
+            </div>
+            <div class="portfolio-content pct" data-aos="fade-up">
+                <img src="./Home Page- Portfolio/Web Design and Development/4.png" alt="">
+                <h2>Pixels to Pages: Exploring Web Design & Development</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Review  Section -->
+    <div class="review">
+        <h3>Our Happy Clients Say</h3>
+        <div class="review-container">
+            <div class="container swiper">
+                <!-- <h1>Our Happy Client Say</h1> -->
+                <div class="slider-wrapper">
+                    <div class="card-list swiper-wrapper">
+                        <div class="card-item swiper-slide">
+                            <img src="./assets/customer1.jpeg" alt="">
+                            <div class="review-text">
+                                <h4>Genesis Christopher</h4>
+                                <p>
+                                    My experience with Vectored Creations has been nothing short of exceptional. From the outset, their team demonstrated a deep commitment to understanding our business goals and translating them into impactful digital solutions.
+                                </p>
+                                <div class="star">                    
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>        
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="card-item swiper-slide">
+                            <img src="./assets/review.png" alt="">
+                            <div class="review-text">
+                                <h4>Natasha Brayan</h4>
+                               <p>
+                                    What stood out the most was their ability to engage in meaningful conversations that unearthed valuable insights and innovative ideas. They didn't just deliver on our requirements; they exceeded them by bringing a fresh perspective and creative flair to every aspect of our project.
+                               </p>
+                                <div class="star">                    
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>        
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="card-item swiper-slide">
+                            <img src="./assets/pic-2.png" alt="">
+                            <div class="review-text">
+                                <h4>Paul Smith</h4>
+                                <p>
+                                    I would highly recommend Vectored Creations to any business looking for not just a service provider, but a strategic partner who is committed to delivering excellence and driving measurable results. They have truly exceeded our expectations, and we look forward to continuing our partnership with them for future projects.
+                                </p>
+                                <div class="star">                    
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>        
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="card-item swiper-slide">
+                            <img src="./assets/images.jpeg" alt="">
+                            <div class="review-text">
+                                <h4>Ruth James</h4>
+                                <p>
+                                    The quality of their work is outstanding, from the logo design that perfectly captured our brand essence to the seamless animations that brought our website to life. Vectored Creations' expertise in web development and SEO also played a crucial role in optimizing our online presence, ensuring we stand out in a competitive market.
+                                </p>
+                                <div class="star">                    
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>        
+                                </div>
+                            </div>
+                        </div>     
+                        <div class="card-item swiper-slide">
+                            <img src="./assets/images (2).jpeg" alt="">
+                            <div class="review-text">
+                                <h4>Felix Declan</h4>
+                                <p>
+                                    Throughout the collaboration, Vectored Creations maintained transparent communication and provided prompt support whenever needed. This level of professionalism and dedication made the entire process smooth and enjoyable.
+                                </p>
+                                <div class="star">                    
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>        
+                                </div>
+                            </div>
+                        </div>     
+                    </div>
+                    <div class="swiper-pangination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div class="contact">
+        <div data-aos="zoom-out-down">
+            <h1>Get In Touch</h1>
+        </div>
+        <div class="contact-contact" data-aos="zoom-out-left">
+            <form action="">
+                <div class="sorm-flex">
+                    <input type="text" placeholder="First Name*">
+                    <input type="text" placeholder="Last Name*">
+                </div>
+                <div class="sorm-flex">
+                    <input type="text" placeholder="Services*">
+                    <input type="text" placeholder="City*">
+                </div>
+                <input type="text" placeholder="Email*">
+                <input type="number" placeholder="Phone*">
+                <textarea name="" placeholder="Comment*" id=""></textarea>
+                <button>
+                    Submit Now
+                </button>
+            </form>
+            <div data-aos="zoom-out-right">
+                <img src="./assets/cont.gif" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    
+    
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <img src="./assets/chest.webp" alt="">
+                <p>We Are A Dynamic Company Specializing In Digital Goods</p>
+                <ul class="social">
+                    <a href="">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-content footer-line">
+                <h1>Quick-Link</h1>
+                <ul class="quick">
+                    <a href="">
+                        <li>Home</li>
+                    </a>
+                    <a href="">
+                        <li>Why Choose Us</li>
+                    </a>
+                    <a href="">
+                        <li>Services</li>
+                    </a>
+                    <a href="">
+                        <li>Portfolio</li>
+                    </a>
+                    <a href="">
+                        <li>Testimonials</li>
+                    </a>
+                    <a href="">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h1>Newsletter</h1>
+                <p>
+                    Enter your email to recieve latest updates from us.
+                </p>
+                <div class="news-box">
+                    <input type="text" placeholder="Enter your email" name="" id="">
+                    <button><i class="fa-solid fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&#9415; <span id="currentYear"></span> <span>Vectored Creations</span> | All Rights Reserve</p>
+        </div>
+    </footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./script.js"></script>
+    
+    <!-- AOS animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Swiper Js -->
+    <script>
+        let currentYear = new Date().getFullYear();
+        document.getElementById("currentYear").textContent = currentYear;
+    </script>
+    
+</body>
+</html>
